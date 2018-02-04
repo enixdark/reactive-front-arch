@@ -24,7 +24,7 @@ class View extends Component {
         document.addEventListener('keyup', this.onCharacter);
     }
 
-    componentWillMount() {
+    componentWillUnMount() {
         document.removeEventListener('keyup', this.onCharacter);
         this.cancelSupscription();
     }
