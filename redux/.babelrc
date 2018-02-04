@@ -1,0 +1,17 @@
+{
+    "parserOpts": {
+        "parser": "@airdwing/babylon"
+    },
+    "presets": [
+        "env",
+        "stage-2",
+        "es2015",
+        "flow",
+        "react"
+    ],
+    "plugins": [
+        "transform-decorators-legacy",
+        // "syntax-pipeline-operator",
+        "transform-pipeline"
+    ]
+}
